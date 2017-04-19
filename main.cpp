@@ -5,20 +5,18 @@
 #include "vectorolvasas.hpp"
 #include "Exception.h"
 
-using namespace std;
-
 int main()
 {
-    vector<University> uns;
+    std::vector<University> uns;
 
-    ifstream f("input.txt");
+    std::ifstream f("input.txt");
     try {
         if (f.is_open()) {
             f >> uns;
         }
-        cout << uns;
+        std::cout << uns;
     } catch (Exception e) {
-        cout << e;
+        std::cout << e;
     }
 
     return 0;

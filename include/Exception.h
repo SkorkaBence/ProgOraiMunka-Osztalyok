@@ -8,6 +8,7 @@ private:
     std::string msg;
 public:
     Exception(std::string s);
+
     friend std::ostream& operator << (std::ostream& ou, Exception ex);
 };
 
