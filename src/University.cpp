@@ -14,10 +14,8 @@ std::istream& operator >> (std::istream& in, University& un) {
 
     std::string str;
     getline(in, str);
-
     std::stringstream ss;
     ss << str;
-
     un.facts.clear();
     std::string str2;
     while (ss >> str2) {

@@ -32,6 +32,9 @@ std::ostream& operator << (std::ostream& ou, Atmosphere& am) {
         case ELTE:
             ou << "ELTE";
             break;
+        default:
+            throw Exception("Unknown atmosphere");
+            break;
     }
     return ou;
 }
