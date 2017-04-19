@@ -1,16 +1,29 @@
 # depslib dependency file v1.0
-1492595800 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\main.cpp
+1492597440 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\main.cpp
 	<iostream>
 	<vector>
 	<fstream>
 	"University.h"
+	"vectorolvasas.hpp"
+	"Exception.h"
 
-1492596209 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\university.h
+1492597437 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\university.h
+	"Exception.h"
 	<iostream>
 	<vector>
 	<string>
 	<sstream>
 
-1492596129 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\university.cpp
+1492597371 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\university.cpp
 	"University.h"
+
+1492596527 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\vectorolvasas.hpp
+	<iostream>
+	<vector>
+
+1492597453 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\exception.h
+	<iostream>
+
+1492597431 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\exception.cpp
+	"Exception.h"
 
