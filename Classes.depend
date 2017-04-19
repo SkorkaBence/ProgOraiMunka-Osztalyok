@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1492595800 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	"University.h"
+
+1492596209 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\university.h
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+
+1492596129 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\university.cpp
+	"University.h"
+
