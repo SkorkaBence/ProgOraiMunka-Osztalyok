@@ -2,17 +2,11 @@
 #define UNIVERSITY_H
 
 #include "Exception.h"
+#include "Atmosphere.h"
 #include <iostream>
 #include <vector>
 #include <string>
 #include <sstream>
-
-enum Atmosphere {
-    HAPPY,
-    DENSE,
-    MEDIUM,
-    ELTE
-};
 
 class University {
 private:

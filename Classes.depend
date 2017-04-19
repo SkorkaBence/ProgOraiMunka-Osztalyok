@@ -7,14 +7,15 @@
 	"vectorolvasas.hpp"
 	"Exception.h"
 
-1492597437 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\university.h
+1492597923 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\university.h
 	"Exception.h"
+	"Atmosphere.h"
 	<iostream>
 	<vector>
 	<string>
 	<sstream>
 
-1492597371 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\university.cpp
+1492597911 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\university.cpp
 	"University.h"
 
 1492596527 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\vectorolvasas.hpp
@@ -26,4 +27,11 @@
 
 1492597431 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\exception.cpp
 	"Exception.h"
+
+1492597942 c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\include\atmosphere.h
+	<iostream>
+	"Exception.h"
+
+1492597913 source:c:\users\skork\onedrive - eotvos lorand tudomanyegyetem\ii\programozas\classes\src\atmosphere.cpp
+	"Atmosphere.h"
 

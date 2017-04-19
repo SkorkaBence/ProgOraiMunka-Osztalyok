@@ -10,21 +10,7 @@ University::University() {
 std::istream& operator >> (std::istream& in, University& un) {
     in >> un.name >> un.passRate;
 
-    std::string atmStr;
-    in >> atmStr;
-    if (in.fail()) {
-        throw Exception("No atmosphere found");
-    } else if (atmStr == "HAPPY") {
-        un.atmosphere = HAPPY;
-    } else if (atmStr == "DENSE") {
-        un.atmosphere = DENSE;
-    } else if (atmStr == "MEDIUM") {
-        un.atmosphere = MEDIUM;
-    } else if (atmStr == "ELTE") {
-        un.atmosphere = ELTE;
-    } else {
-        throw Exception("Unknown atmosphere: " + atmStr);
-    }
+    in >> un.atmosphere;
 
     std::string str;
     getline(in, str);
@@ -42,21 +28,7 @@ std::istream& operator >> (std::istream& in, University& un) {
 }
 
 std::ostream& operator << (std::ostream& ou, University& un) {
-    ou << un.name << " " << un.passRate << " ";
-    switch (un.atmosphere) {
-        case HAPPY:
-            ou << "HAPPY";
-            break;
-        case DENSE:
-            ou << "DENSE";
-            break;
-        case MEDIUM:
-            ou << "MEDIUM";
-            break;
-        case ELTE:
-            ou << "ELTE";
-            break;
-    }
+    ou << un.name << " " << un.passRate << " " << un.atmosphere;
     for (int i = 0; i < un.facts.size(); i++) {
         ou << " " << un.facts[i];
     }
